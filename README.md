@@ -4,7 +4,7 @@ Local Docker RStudio Server Project Template
 ## Prerequisites
 
 - [Docker Desktop](https://www.docker.com/products/docker-desktop) for Windows/Mac
-    - Docker 18.06.0+
+    - Docker 18.06+
 
 ## Settings
 
