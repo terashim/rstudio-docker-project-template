@@ -3,7 +3,7 @@ services:
   rstudio:
     image: your-project-name:latest
     build:
-      context: docker
+      context: _rstudio
     ports:
       - "8787:8787"
     environment:
