@@ -6,11 +6,12 @@ Local Docker RStudio Server Project Template
 Edit
 
 - `Dockerfile`
+    - change the base image, install packages, change global options, etc.
 - `docker-compose.yml`
-    - `PROJECT_RSTUDIO_IMAGE`
-    - `PROJECT_NAME`
+    - rename the image name `your-project-name:latest`
+    - rename the folder name to mount `/home/rstudio/your-project-name`
 
-Rename `PROJECT_NAME.Rproj`
+Rename `your-project-name.Rproj` file
 
 ---
 

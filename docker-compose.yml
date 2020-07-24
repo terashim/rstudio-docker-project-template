@@ -1,7 +1,7 @@
 version: "3.7"
 services:
   rstudio:
-    image: PROJECT_RSTUDIO_IMAGE:latest
+    image: your-project-name:latest
     build:
       context: docker
     ports:
@@ -10,4 +10,4 @@ services:
       - PASSWORD=password
       - DISABLE_AUTH=true
     volumes:
-      - .:/home/rstudio/PROJECT_NAME
+      - .:/home/rstudio/your-project-name
