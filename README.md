@@ -17,16 +17,12 @@ Rename `your-project-name.Rproj` file
 
 ## Usage
 
-Start RStudio server:
-
-```sh
-docker-compose up
-```
-
-Open <http://localhost:8787>
-
-Stop RStudio Server:
-
-```sh
-docker-compose down
-```
+1. Start RStudio Server:
+    ```sh
+    docker-compose up
+    ```
+2. Browse <http://localhost:8787> to connect to the local RStudio Server.
+3. Stop the RStudio Server:
+    ```sh
+    docker-compose down
+    ```
