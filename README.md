@@ -15,19 +15,19 @@ Local Docker RStudio Server Project Template
         - change the base image, install packages, change global options, etc.
     - `_rstudio/docker-compose.yml`
         - rename the image name `your-project-name:latest`
-        - rename the folder name to mount `/home/rstudio/your-project-name`
-4. Rename `your-project-name.Rproj` file
 
 ---
 
 ## Usage
 
-1. Start RStudio Server:
+1. Start the RStudio Server:
     ```sh
     docker-compose up -d
     ```
-2. Browse <http://localhost:8787> to connect to the local RStudio Server.
-3. Stop the RStudio Server:
+2. Browse <http://localhost:8787> to connect to the local RStudio Server
+3. Open the R project `/home/rstudio/project/project.Rproj`
+4. Do your analysis
+5. Stop the RStudio Server:
     ```sh
     docker-compose down
     ```

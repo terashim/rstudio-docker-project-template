@@ -15,8 +15,6 @@
         - ベースイメージの変更、パッケージのインストール、グローバルオプションの設定などを行う。
     - `_rstudio/docker-compose.yml`
         - ビルドするイメージ名 `your-project-name:latest` を変更する。
-        - マウントするフォルダ名 `/home/rstudio/your-project-name` を変更する。
-4. ファイル名 `your-project-name.Rproj` を変更する。
 
 ---
 
@@ -27,7 +25,9 @@
     docker-compose up -d
     ```
 2. ブラウザで <http://localhost:8787> を開き RStudio Server に接続する。
-3. RStudio Server を停止する:
+3. R プロジェクト `/home/rstudio/project/project.Rproj` を開く
+4. 分析を行う
+5. RStudio Server を停止する:
     ```sh
     docker-compose down
     ```

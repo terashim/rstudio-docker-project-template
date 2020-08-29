@@ -10,4 +10,4 @@ services:
       - PASSWORD=password
       - DISABLE_AUTH=true
     volumes:
-      - .:/home/rstudio/your-project-name
+      - .:/home/rstudio/project
