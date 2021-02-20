@@ -1,6 +1,8 @@
 Local Docker RStudio Server Project Template
 ==================================================
 
+**A new template is available here: [terashim/rproject](https://github.com/terashim/rproject)**
+
 ## Prerequisites
 
 - [Docker Desktop](https://www.docker.com/products/docker-desktop) for Windows/Mac

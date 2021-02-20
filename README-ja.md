@@ -1,6 +1,8 @@
 ローカル Docker RStudio Server プロジェクトのテンプレート
 ==================================================
 
+**こちらに新しいバージョンのテンプレートがあります: [terashim/rproject](https://github.com/terashim/rproject)**
+
 ## 前提条件
 
 - [Docker Desktop](https://www.docker.com/products/docker-desktop) for Windows/Mac
